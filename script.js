@@ -70,7 +70,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     createTaskElement(taskText, false);
     saveTasks();
-
+    taskInput.appendChild(taskText);
     taskInput.value = "";
     taskInput.focus();
   }
